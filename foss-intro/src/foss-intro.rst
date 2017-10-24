@@ -17,9 +17,9 @@ D\. Joe Anderson
 University of Rochester
 October 2017
 
-.. note: running heads:
+.. note:: running heads:
 
-.. note: FOSS Concepts Intro GIS XYZ
+.. note:: FOSS Concepts Intro GIS XYZ
 
 ---- 
 
@@ -27,22 +27,22 @@ Rough outline
 =============
 
  - Software freedom: What is it?
- - Legal restrictions
+ - Motivations vs legal restrictions
  - Expanding rights: Licensing
  - Example projects
 
-.. note: In this talk I hope to draw out at least a little more what the
-         "freedom to fork" means, to legal conditions that require us to
-         take specific steps to exercise that right; the legal tools that
-         have been created to open room for exercising that right, called
-         "licenses"
+.. note:: In this talk I hope to give a quick summary of what we mean by
+         software freedom, to provide background for the legal conditions
+         that require us to take specific steps to exercise those rights;
+         followed by a quick look at the legal tools to help protect those
+         rights, and then to apply those to a relevant example or two.
 
 ----
 
 Terminology note
 ================
 
-.. note:  People occasionally try to come up with different ways of saying
+.. note:: People occasionally try to come up with different ways of doing or saying
           largely the same thing.
 
 .. image:: images/standards.png
@@ -70,18 +70,20 @@ Terminology note
 Think **free** as in **freedom** rather than  *available at no (additional) cost*.
 
 
-.. note: These terms are used differently within the field to indicate
-         differences in philosophy or approach that are too abstruse to get
-         into for a general audience.  Of course I have opinions about all
-         of this and would love to talk about it, but to do so would keep us
-         from the fundamentals.  I'll generally use "free software" or "FOSS
-         but usually the other terms would do.
+.. note:: These terms are used differently within the field to indicate
+          differences in philosophy or approach that are too abstruse to get
+          into for a general audience.  Of course I have opinions about all
+          of this and would love to talk about it, but to do so would keep us
+          from the fundamentals.  I'll generally use "free software" or "FOSS
+          but usually the other terms would do. Newcomer: *copyfree*
 
 ---- 
 
 What is "software freedom"?
 ===========================
 
+.. note:: Very briefly, for now. Heard of the 3Rs?. cf Four freedoms, 5Rs of
+          open content
 
 The 4 R's
 ---------
@@ -107,6 +109,11 @@ What is "software freedom"?
 Run
 ---
 
+.. note:: Anyone can run it for any purpose. Contrast with, eg, Apple
+          software on Apple hardware.  Apple HW and OS have changed a lot
+          over the years, to run in emulation still legally requires a
+          license. Video game console emulation.
+
 ----
 
 What is "software freedom"?
@@ -115,6 +122,9 @@ What is "software freedom"?
 
 .. image:: images/Screenshot_from_2017-10-17_15-24-23-osd-small.png
 
+.. note:: One of many ways of trying to explicitly describe freedoms. For
+          now, want to focus on a couple of points here.
+
 ---- 
 
 What is "software freedom"?
@@ -122,6 +132,11 @@ What is "software freedom"?
 
 
 .. image:: images/Screenshot_from_2017-10-17_15-25-38-osd-big-no-discrimination.png
+
+.. note:: For now, want to focus on a couple of points here behind "freedom to
+          run".  A lot packed into that 3 letter word.
+
+.. note:: cf DFSG
 
 ----
 
@@ -134,6 +149,18 @@ What is "software freedom"?
 Read
 ----
 
+.. note:: By read we mean the human-readable form of software, that previous
+          had been written by a human doing a thing we tend to refer to as
+          *programming* or more lately as *developing*.  We call that human
+          readable stuff "source code" hence "open source".  Study, learn,
+          understand, criticize.
+
+.. note:: This is where academic values really come into play.  Beware some
+          licenses, what I call "academicware", that let you use it as a
+          student or faculty member, but not once you get a job, or let you
+          work with industry or government collaborators.  Personal use
+          only, etc.
+
 ----
 
 What is "software freedom"?
@@ -145,6 +172,10 @@ What is "software freedom"?
 
 Revise
 ------
+
+.. note:: Correct, debug, improve, repurpose. Do you understand it well enough to
+           change it? Can you keep using it on different OSes or hardware?
+           Fighting bitrot.
 
 ----
 
@@ -160,6 +191,9 @@ What is "software freedom"?
 Redistribute
 ------------
 
+.. note:: Share. Verbatim or changed. Upstream or downstream. Beware "must
+           submit upstream" terms. Free and easy, cf code escrow.
+
 ---- 
 
 
@@ -173,7 +207,7 @@ What is "software freedom"?
 
 .. note: A brief preview of an idea we'll expand on later, bears repeating because it's the essence of the subject.
 
-Or, to put it most briefly, the essential freedom for FOSS is the:
+.. note:: Or, to put it most briefly, the essential freedom for FOSS is the:
 
 **Freedom to *fork***
 
@@ -192,36 +226,34 @@ Or, to put it most briefly, the essential freedom for FOSS is the:
          collaboration and cooperation that is so crucial for so much
          academic work.
 
-.. note: here we've answered one question but created another: What do we
-         mean by the freedom to fork.
 
-  
 .. note:  Slide with 4 R's listed (the What)
-
-.. note: refer to FSF 4 freedoms, to open content 5 Rs, to DFSG and OSD.
-
-.. note: warn against "free" for specific user licenses.
-
-.. note: maybe a slide of OSD or DFSG with just no discrimination clause.
 
 .. note: Slide with IP categories listed. (the Why) ok maybe not
 
-.. note:  DFSG with no discrimination highlighted 
-
 ---- 
 
-Software freedom: Practical constraints
-=======================================
+Software freedom: 
+=================
+Practical constraints
+---------------------
 Rights, restrictions, and licensing
------------------------------------
+...................................
+
+----
+
+Rights, restrictions, and licensing
+===================================
 
 Rights without restrictions
+...........................
 
   - public domain
 
-.. note: eg GRASS
+.. note:: eg GRASS
 
 Rights for some, restrictions for others
+........................................
 
   - trade secret
   - patent
@@ -239,8 +271,11 @@ Rights for some, restrictions for others
 
 ---- 
 
+Rights, restrictions, and licensing
+===================================
+
 End User License Agreement
-==========================
+--------------------------
 
 .. image:: images/terms_1.png
     :width: 300px
@@ -276,8 +311,9 @@ Robert Sikoryak_
 
 ---- 
 
-End User License Agreements
-===========================
+Rights, restrictions, and licensing
+===================================
+
 The problem with proprietary EULAs
 ----------------------------------
 
@@ -311,17 +347,17 @@ Rights, restrictions, and licensing
  - *When?*
  - *How?* 
 
-.. note: Who can get the rights, who gets limited by them
-.. note: What is covered by what restrictions
-.. note: Why create restrictions
-.. note: Where do these restrictions apply
-.. note: When and how does it expire
-.. note: How and when does something become covered
+.. note:: Who can get the rights, who gets limited by them
+.. note:: What is covered by what restrictions
+.. note:: Why create restrictions
+.. note:: Where do these restrictions apply
+.. note:: When and how does it expire
+.. note:: How and when does something become covered
 
 ---- 
 
 
-.. note: Excerpt from Constitution
+.. note:: Excerpt from Constitution
 
 Patent and Copyright Clause 
 ===========================
@@ -332,7 +368,7 @@ U.S. Constitution
 
 *Article I Section 8. Clause 8*
 
-.. note: This is US federal jurisdiction. Used to be more localized, with
+.. note:: This is US federal jurisdiction. Used to be more localized, with
          state and even local law in the US weighing in.  Now
          internationalized and harmonized through for instance the Berne
          Convention (US 1989), though still with differences from
@@ -382,7 +418,7 @@ Focus on copyright
   - trademark
   - public domain
 
-.. note: copyright: for authors
+.. note:: copyright: for authors
     applies to creative expression (very broadly: literature, art. cf djb vs us)
     not for facts or automatic work (cf phone books, databases)
     arises automatically (per Berne vide supra) on creation
@@ -391,19 +427,19 @@ Focus on copyright
     not for US govt (cf Crown Copyright and OSM)
     limited by fair use (do ToS override fair use?)
  
-.. note: trade secret, in principle for ever, cumbersome, rev eng, Coke formula
-.. note: patent, 20 years, first to file, prior art, novel, practical, must apply
-.. note: trademark, logos and brand names, start by using, protects consumers from "confusion", must defend from becoming generic. Xerox. Kleenex. Hoover.
-.. note: public domain, US federal govt (but not UK!) works not copyrightable, when copyright, patent expires, trademark becomes generic.
+.. note:: trade secret, in principle for ever, cumbersome, rev eng, Coke formula
+.. note:: patent, 20 years, first to file, prior art, novel, practical, must apply
+.. note:: trademark, logos and brand names, start by using, protects consumers from "confusion", must defend from becoming generic. Xerox. Kleenex. Hoover.
+.. note:: public domain, US federal govt (but not UK!) works not copyrightable, when copyright, patent expires, trademark becomes generic.
 
-.. note: Slide highlighting just copyright.
+.. note:: Slide highlighting just copyright.
 
-.. note: but where do these come from?
+.. note:: but where do these come from?
 
 
 ---- 
 
-.. note: Freedom to fork: Reprise
+.. note:: Freedom to fork: Reprise
 
 What do we want?
 ================
@@ -415,18 +451,12 @@ What do we want?
 
 How do we get it?
 -----------------
-  
-.. note:  Slide with 4 R's listed (the What)
 
-.. note: refer to FSF 4 freedoms, to open content 5 Rs, to DFSG and OSD.
-
-.. note: warn against "free" for specific user licenses.
-
-.. note: maybe a slide of OSD or DFSG with just no discrimination clause.
-
-.. note: Slide with IP categories listed. (the Why) ok maybe not
-
-.. note:  DFSG with no discrimination highlighted 
+.. note:: By using the idea of a license expansively, to protect rights.  In
+          our current legal climate, we can tell a piece of software has
+          been liberated by its authors when it has a license that allows us
+          *effectively* to run, read, revise, and redistribute the source
+          code.
 
 ---- 
 
@@ -443,11 +473,16 @@ For software
    - MIT expat or X11
    - BSD 2-clause or 3-clause
    - Apache
+   - WTFPL
+
  - Copyleft
    - varieties of the GPL
    - Oracle (via Sun) CDDL
 
-Non-software
+---- 
+
+Free content licenses
+=====================
 
   - GFDL
   - Creative Commons
@@ -484,10 +519,20 @@ QGIS
   - get involved --> development --> GIT Access --> Accessing the repository
   - v2 and above https://github.com/qgis/QGIS
 
-.. note: very nice, there's a repo for the website
+.. note:: very nice, there's a repo for the website, docs organized well,
+          onboarding
 
 ---- 
 
 Open Street Map
 ===============
+
+.. note:: http://wiki.openstreetmap.org/wiki/Timelapse_videos
+
+.. note:: Y-jXWrfBDKs youtube
+
+.. note:: Compare and contrast USGS, NASA, and NOAA data to UK Crown Copyright
+
+.. note:: > OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF)
+.. note:: http://www.openstreetmap.org/copyright
 
