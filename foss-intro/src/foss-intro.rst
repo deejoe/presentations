@@ -31,8 +31,11 @@ Rough outline
 =============
 
  - Software freedom: What is it?
+
  - Motivations vs legal restrictions
+
  - Expanding rights: Licensing
+
  - Example projects
 
 .. note:: In this talk I hope to give a quick summary of what we mean by
@@ -66,9 +69,13 @@ Terminology note
 
 
  - *free software*
+
  - *open source*
+
  - *free and open source software* (FOSS)
+
  - *free, libre, and open source software* (FLOSS)
+
  - *public software*
 
 Think **free** as in **freedom** rather than  *available at no (additional) cost*.
@@ -477,15 +484,21 @@ Free software licenses
 
 For software
 
- - Permissive, non-reciprocal
-   - MIT expat or X11
-   - BSD 2-clause or 3-clause
-   - Apache
-   - WTFPL
+ * Permissive, non-reciprocal
 
- - Copyleft
-   - varieties of the GPL
-   - Oracle (via Sun) CDDL
+   * MIT expat or X11
+
+   * BSD 2-clause or 3-clause
+
+   * Apache
+
+   * WTFPL
+
+ * Copyleft
+
+   * varieties of the GPL
+
+   * Oracle (via Sun) CDDL
 
 ---- 
 
@@ -500,10 +513,15 @@ Free content licenses
 =====================
 
   - GFDL
+
   - Creative Commons
+
     - BY attribution
+
     - [SA] share-alike (copyleft)
+
     - (NC) non-commercial (unfree)
+
     - (ND) no-derivatives (unfree)
 
 
