@@ -489,6 +489,13 @@ For software
 
 ---- 
 
+.. image:: images/Screenshot_from_2017-10-17_15-28-35-fsf-mit-expat.png
+
+.. note:    :height: 283px
+.. note:    :width: 500px
+
+----
+
 Free content licenses
 =====================
 
