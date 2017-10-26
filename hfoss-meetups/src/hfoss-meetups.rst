@@ -4,8 +4,8 @@
 
 ----
 
-HFOSS Meetups
--------------
+HFOSS Meetups - Spring 2017
+---------------------------
 
 ---- 
 
@@ -13,24 +13,24 @@ HFOSS Meetups
 
 - Previous requirement: 3 out-of-class events
 - New requirement: 2-6 out-of-class events depending on degree of difficulty
-- 12 points, 3 off-campus meetups of 4 points each
+- 60 points, roughly 3 off-campus meetups of 20 points each on average
 
 ---- 
 
 The breakdown
 ----------------
 
-- 2 pts, regular on-campus meeting =< 3 hrs (RITLUG) 
-- 3 pts, on-campus hackathon >= 3 hrs (Software Freedom Day, hackathon)
-- 4 pts, off-campus in-town event
-- 6 pts, out-of-town event (eg, Hack Upstate)
+- 10 pts, regular on-campus meeting =< 3 hrs (RITLUG) 
+- 15 pts, on-campus hackathon >= 3 hrs (Software Freedom Day, hackathon)
+- 20 pts, off-campus in-town event (RocPy, Linux Workshop)
+- 30 pts, out-of-town event (eg, Hack Upstate, LibrePlanet)
 
 ---- 
 
 Other requirements
 ------------------
 
-- *must* blog about it
+- *must* blog about it (similar to a litreview)
 - must introduce yourself to the group
 - participation is subject to independent confirmation (academic dishonesty)
 
