@@ -23,6 +23,10 @@ October 2017
 
 ---- 
 
+I am not a lawyer.
+
+----
+
 Rough outline
 =============
 
@@ -46,8 +50,8 @@ Terminology note
           largely the same thing.
 
 .. image:: images/standards.png
-    :width: 500px
     :height: 283px
+    :width: 500px
 
 .. note: standards.png PNG 500x283 500x283+0+0 8-bit sRGB 256c 24.3KB 0.000u 0:00.000
 .. note: https://imgs.xkcd.com/comics/standards.png
@@ -90,8 +94,10 @@ The 4 R's
 
 ----
 
-What is "software freedom"?
-===========================
+*What is "software freedom"?*
+
+The 4 R's
+---------
 
  - **Run**
  - **Read**
@@ -100,8 +106,8 @@ What is "software freedom"?
 
 ----
 
-What is "software freedom"?
-===========================
+*What is "software freedom"?*
+
 
 
 
@@ -116,8 +122,7 @@ Run
 
 ----
 
-What is "software freedom"?
-===========================
+*What is "software freedom"?*
 
 
 .. image:: images/Screenshot_from_2017-10-17_15-24-23-osd-small.png
@@ -127,8 +132,8 @@ What is "software freedom"?
 
 ---- 
 
-What is "software freedom"?
-===========================
+*What is "software freedom"?*
+
 
 
 .. image:: images/Screenshot_from_2017-10-17_15-25-38-osd-big-no-discrimination.png
@@ -140,8 +145,8 @@ What is "software freedom"?
 
 ----
 
-What is "software freedom"?
-===========================
+*What is "software freedom"?*
+
 
 
 *Run*
@@ -163,8 +168,8 @@ Read
 
 ----
 
-What is "software freedom"?
-===========================
+*What is "software freedom"?*
+
 
 *Run*
 
@@ -179,8 +184,8 @@ Revise
 
 ----
 
-What is "software freedom"?
-===========================
+*What is "software freedom"?*
+
 
 *Run*
 
@@ -237,23 +242,21 @@ Software freedom:
 =================
 Practical constraints
 ---------------------
-Rights, restrictions, and licensing
-...................................
+Rights and restrictions
+.......................
 
 ----
 
-Rights, restrictions, and licensing
-===================================
+*Rights and restrictions*
 
-Rights without restrictions
-...........................
+**Rights without restrictions**
+
 
   - public domain
 
 .. note:: eg GRASS
 
-Rights for some, restrictions for others
-........................................
+**Rights for some, restrictions for others**
 
   - trade secret
   - patent
@@ -271,15 +274,14 @@ Rights for some, restrictions for others
 
 ---- 
 
-Rights, restrictions, and licensing
-===================================
+*Rights and restrictions*
 
 End User License Agreement
 --------------------------
 
 .. image:: images/terms_1.png
-    :width: 300px
     :height: 190px
+    :width: 300px
 
 
 Robert Sikoryak_ 
@@ -301,6 +303,8 @@ Robert Sikoryak_
 .. note: https://78.media.tumblr.com/96c42c8373049e01f5a83c0f606e207c/tumblr_nyqn70RGPx1ugej69o1_1280.jpg
 
 .. image:: images/tumblr_nyqn70RGPx1ugej69o1_1280.jpg
+    :height: 950px
+    :width: 450px
 
 ---- 
 
@@ -308,11 +312,17 @@ Robert Sikoryak_
 .. note: https://78.media.tumblr.com/4257efd86ce979895d533f42798fac8e/tumblr_ny6cfwI3WS1ugej69o1_1280.jpg
 
 .. image:: images/tumblr_ny6cfwI3WS1ugej69o1_1280.jpg
+    :height: 950px
+    :width: 450px
+
+
+.. note: images/tumblr_ny6cfwI3WS1ugej69o1_1280.jpg JPEG 825x1275 825x1275+0+0 8-bit Gray 256c 394KB 0.000u 0:00.000
+.. note: images/tumblr_nyqn70RGPx1ugej69o1_1280.jpg[1] JPEG 825x1275 825x1275+0+0 8-bit Gray 256c 452KB 0.000u 0:00.000
+
 
 ---- 
 
-Rights, restrictions, and licensing
-===================================
+*Rights and restrictions*
 
 The problem with proprietary EULAs
 ----------------------------------
@@ -324,7 +334,7 @@ Great big documents to allow you to do very little.
 They prevent or make difficult:
 
  - peer review
- - scutiny
+ - scrutiny
  - accountability
  - reproducibility
  - incremental progress
@@ -338,8 +348,7 @@ One thing they tend to get right
 ---- 
 
 
-Rights, restrictions, and licensing
-===================================
+*Rights and restrictions*
 
  - *Who?* 
  - *What?*
@@ -406,11 +415,10 @@ Patent and Copyright Clause
 ----
 
 
-Rights, restrictions, and licensing
-===================================
+*Rights & restrictions*
+
 Focus on copyright
 ------------------
-
 
   - trade secret
   - patent
@@ -505,8 +513,13 @@ Classic FOSS & Free Culture
 
 FOSS for GIS examples
 
- - QGIS
- - OpenStreetMap
+ - QGIS_
+ - OpenStreetMap_
+
+.. _QGIS: https://qgis.org
+.. _OpenStreetMap: https://www.openstreetmap.org
+
+.. note:: I want to focus on their licensing.
 
 ---- 
 
