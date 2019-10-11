@@ -1,5 +1,4 @@
 :title: FOSS Concepts Intro
-:author: D. Joe Anderson
 :css: iat-style.css
 
 ---- 
@@ -18,12 +17,16 @@ University of Rochester
 October 2017
 
 .. note:: running heads:
-
-.. note:: FOSS Concepts Intro GIS XYZ
+          FOSS Concepts Intro CAS 251 Goergen 102 2017-10-26
 
 ---- 
 
 I am not a lawyer.
+
+.. note:: I'll talk about some legal concepts, but they have a lot of nuance
+          I cannot cover. I don't have the education to give you personal, specific
+          legal advice about this, though I'll share some opinions about the state of
+          things. This does not constitute legal or financial advice
 
 ----
 
@@ -39,10 +42,20 @@ Rough outline
  - Example projects
 
 .. note:: In this talk I hope to give a quick summary of what we mean by
-         software freedom, to provide background for the legal conditions
-         that require us to take specific steps to exercise those rights;
-         followed by a quick look at the legal tools to help protect those
-         rights, and then to apply those to a relevant example or two.
+          software freedom, to provide background for the legal conditions
+          that require us to take specific steps to exercise those rights;
+          followed by a quick look at the legal tools to help protect those
+          rights, and then to apply those to a relevant example or two. So,
+          a quick overview of what I want to talk to you about today. First,
+          I want to start with the basics: What do we mean by "free
+          software". Then I want to give a little bit of background on the
+          legal situation that makes it necessary to pay attention to these
+          sorts of things. With that background in place, then, I'll mention
+          a few of the legal tools we use to liberate software and keep it
+          free. Finally, I'd like to run through a very quick but I hope
+          relevant example for applying this sort of understanding
+          in a practical way to a specific software project. 
+        
 
 ----
 
@@ -60,23 +73,26 @@ Terminology note
 .. note: https://imgs.xkcd.com/comics/standards.png
 .. note: https://xkcd.com/927/
 
-https://xkcd.com/927/
+XKCD_
+
+.. _XKCD: https://xkcd.com/927/
 
 ---- 
 
 Terminology note
 ================
 
+ - *copyfree*
 
- - *free software*
-
- - *open source*
-
- - *free and open source software* (FOSS)
+ - *public software*
 
  - *free, libre, and open source software* (FLOSS)
 
- - *public software*
+ - *free and open source software* (FOSS)
+
+ - *open source*
+
+ - *free software*
 
 Think **free** as in **freedom** rather than  *available at no (additional) cost*.
 
@@ -90,11 +106,25 @@ Think **free** as in **freedom** rather than  *available at no (additional) cost
 
 ---- 
 
+
+ **proprietary** vs **commercial**
+
+.. note:: *Freedom* not *price*. MYTHBUSTING The opposite of free software is
+          proprietary software. One occasionally sees people try to
+          distinguish betwee this kind of software and commercial software,
+          but that's not a clean distinction: Google uses FOSS, and it's
+          definitely commercial. Redhat's $2B annual take is a pittance
+          compared to what Google brings in, but Redhat is also very much
+          commercial.
+
+---- 
+
 What is "software freedom"?
 ===========================
 
 .. note:: Very briefly, for now. Heard of the 3Rs?. cf Four freedoms, 5Rs of
-          open content
+          open content.  3 Rs only work if you misspell them, which I guess
+          is part of the joke: You need to go to school to make that right.
 
 The 4 R's
 ---------
@@ -111,6 +141,10 @@ The 4 R's
  - **Revise**
  - **Redistribute**
 
+
+.. note::  I've managed to come up with a list of words that begin with R when properly spelled.
+           I'll cover each of them in turn.
+
 ----
 
 *What is "software freedom"?*
@@ -125,7 +159,9 @@ Run
 .. note:: Anyone can run it for any purpose. Contrast with, eg, Apple
           software on Apple hardware.  Apple HW and OS have changed a lot
           over the years, to run in emulation still legally requires a
-          license. Video game console emulation.
+          license. Video game console emulation. Only a student. Only in
+          education. Only one copy. Only one computer or device. Only one
+          CPU. Only if you are a good person ....
 
 ----
 
@@ -134,7 +170,7 @@ Run
 
 .. image:: images/Screenshot_from_2017-10-17_15-24-23-osd-small.png
 
-.. note:: One of many ways of trying to explicitly describe freedoms. For
+.. note:: A much longer list, of 10 instead of 4. One of many ways of trying to explicitly describe freedoms. For
           now, want to focus on a couple of points here.
 
 ---- 
@@ -219,9 +255,10 @@ What is "software freedom"?
 
 .. note: A brief preview of an idea we'll expand on later, bears repeating because it's the essence of the subject.
 
-.. note:: Or, to put it most briefly, the essential freedom for FOSS is the:
+.. note:: Or, to put it most briefly, the essential freedom for FOSS is the
+          freedom to fork.
 
-**Freedom to *fork***
+**Freedom to** *fork*
 
 .. note: In the most simple terms, the essence of free software and free culture is the **freedom to fork**, which is to say, to take a work, make a copy of it, and work on it as if it were your own.
 
@@ -245,12 +282,8 @@ What is "software freedom"?
 
 ---- 
 
-Software freedom: 
-=================
-Practical constraints
----------------------
 Rights and restrictions
-.......................
+=======================
 
 ----
 
@@ -265,19 +298,91 @@ Rights and restrictions
 
 **Rights for some, restrictions for others**
 
-  - trade secret
+  - trade secret 
   - patent
-  - copyright
-  - trademark
+  - copyright 
+    trademark
 
 ... which require *licenses* (mostly).
 
-.. note: put concepts list here, for a little more detail, the reason we
-         have to worry about this, can't just say "I don't care what someone
-         does why do I have to bother with all this" or "I just want to use
-         it for this one little thing, I don't see what the big deal is."
+.. note: this is a broad overview of the area often referred to as IP & the existence of
+         these is the reason we have to worry about this, can't just say "I
+         don't care what someone does why do I have to bother with all this"
+         or "I just want to use it for this one little thing, I don't see
+         what the big deal is."
 
 .. note: mostly means NDA, contracts, right-of-first-sale.
+
+----
+
+
+Rights and restrictions
+=======================
+
+ - *Who?* 
+ - *What?*
+ - *Why?* 
+ - *Where?*
+ - *When?*
+ - *How?* 
+
+.. note:: Who can get the rights, who gets limited by them
+.. note:: What is covered by what restrictions
+.. note:: Why create restrictions
+.. note:: Where do these restrictions apply
+.. note:: When and how does it expire
+.. note:: How and when does something become covered
+
+---- 
+
+
+.. note:: Excerpt from Constitution
+
+Patent and Copyright Clause 
+===========================
+U.S. Constitution 
+-----------------
+
+[The Congress shall have power] "To promote the **progress of science and useful arts**, by securing for **limited times** to **authors and inventors** the **exclusive right** to their respective **writings and discoveries**."
+
+*Article I Section 8. Clause 8*
+
+----
+
+
+Patent and Copyright Clause 
+===========================
+Summarized
+----------
+
+ - *Who?* **authors & inventors**
+ - *What?* **writings & discoveries**   
+ - *Why?* **progress** 
+ - *When?* **limited time**
+ - *How?* **exclusive rights**
+
+---- 
+
+
+Patent and Copyright Clause 
+===========================
+
+ - applies at the federal level
+ - current law mostly supplants state & local law
+ - current law implements international agreements ( *Berne* for copyright)
+ - differs in subtle ways from international counterparts
+
+ - USPTO
+ - copyright.gov
+ - Library of Congress
+
+.. note:: This is US federal jurisdiction. Used to be more localized, with
+          state and even local law in the US weighing in.  Now
+          internationalized and harmonized through for instance the Berne
+          Convention (US 1989), though still with differences from
+          country-to-country.
+
+
 
 ---- 
 
@@ -353,73 +458,6 @@ One thing they tend to get right
 .. note: credit doesn't mean control, or recompense
 
 ---- 
-
-
-*Rights and restrictions*
-
- - *Who?* 
- - *What?*
- - *Why?* 
- - *When?*
- - *How?* 
-
-.. note:: Who can get the rights, who gets limited by them
-.. note:: What is covered by what restrictions
-.. note:: Why create restrictions
-.. note:: Where do these restrictions apply
-.. note:: When and how does it expire
-.. note:: How and when does something become covered
-
----- 
-
-
-.. note:: Excerpt from Constitution
-
-Patent and Copyright Clause 
-===========================
-U.S. Constitution 
------------------
-
-[The Congress shall have power] "To promote the **progress of science and useful arts**, by securing for **limited times** to **authors and inventors** the **exclusive right** to their respective **writings and discoveries**."
-
-*Article I Section 8. Clause 8*
-
-.. note:: This is US federal jurisdiction. Used to be more localized, with
-         state and even local law in the US weighing in.  Now
-         internationalized and harmonized through for instance the Berne
-         Convention (US 1989), though still with differences from
-         country-to-country.
-
-----
-
-
-Patent and Copyright Clause 
-===========================
-Summarized
-----------
-
- - *Who?* **authors & inventors**
- - *What?* **writings & discoveries**   
- - *Why?* **progress** 
- - *When?* **limited time**
- - *How?* **exclusive rights**
-
----- 
-
-
-Patent and Copyright Clause 
-===========================
-
- - applies at the federal level
- - current law mostly supplants state & local law
- - current law implements international agreements
- - differs in subtle ways from international counterparts
-
- - USPTO
- - copyright.gov
- - Library of Congress
-
-----
 
 
 *Rights & restrictions*
