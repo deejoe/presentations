@@ -205,20 +205,6 @@ What is "software freedom"?
 
 .. note: This broadens what can be done with any given work, and it broadens who can do it.
 
-.. note: There's something counter-intuitive here, almost a paradox, that I think
-         academics in particular get wrong: Sure, this enables the lone
-         genius to go off and reshape or recreate something from the pieces
-         and parts from various projects.  Going in the other direction,
-         though, the freedom to go off and do your own thing is crucial to
-         creating the conditions for the kind of meaningful, sustainable
-         collaboration and cooperation that is so crucial for so much
-         academic work.
-
-
-.. note:  Slide with 4 R's listed (the What)
-
-.. note: Slide with IP categories listed. (the Why) ok maybe not
-
 ---- 
 
 
@@ -226,7 +212,7 @@ What is "software freedom"?
 
 .. note:: *Freedom* not *price*. MYTHBUSTING The opposite of free software is
           proprietary software. One occasionally sees people try to
-          distinguish betwee this kind of software and commercial software,
+          distinguish between this kind of software and commercial software,
           but that's not a clean distinction: Google uses FOSS, and it's
           definitely commercial. Redhat's $2B annual take is a pittance
           compared to what Google brings in, but Redhat is also very much
@@ -366,20 +352,6 @@ Rights and restrictions
 
 ... which require *licenses* (mostly).
 
-.. note: this is a broad overview of the area often referred to as IP & the existence of
-         these is the reason we have to worry about this, can't just say "I
-         don't care what someone does why do I have to bother with all this"
-         or "I just want to use it for this one little thing, I don't see
-         what the big deal is."
-
-.. note: mostly means NDA, contracts, right-of-first-sale.
-
-.. note:: Who can get the rights, who gets limited by them
-.. note:: What is covered by what restrictions
-.. note:: Why create restrictions
-.. note:: Where do these restrictions apply
-.. note:: When and how does it expire
-.. note:: How and when does something become covered
 
 ---- 
 
@@ -407,16 +379,30 @@ https://en.wikipedia.org/wiki/TRS-80#/media/File:Radioshack_TRS80-IMG_7206.jpg
 
 .. note:: images/Radioshack_TRS80-IMG_7206.jpg JPEG 5616x3744 5616x3744+0+0 8-bit sRGB 1.16MB 0.160u 0:00.160
 
-
-
+.. note:: examples of 8-bit hardware from the 70s and 80s
 
 ----
 
 http://www.radioshackcatalogs.com/html/catalogs_extra/electronics_1981_fall/hr020.html
 
+.. image:: images/radio-shack-020.jpg
+   :height: 624px
+   :width: 750px
+
+.. note:: src/images/radio-shack-020.jpg JPEG 2000x1666 2000x1666+0+0 8-bit sRGB 868KB 0.000u 0:00.000
+
+
 ----
 
 https://en.wikipedia.org/wiki/Timex_Sinclair_1000#/media/File:Timex_Sinclair_1000_FL.jpg
+
+.. image:: images/Timex_Sinclair_1000_FL.jpg
+   :height: 866
+   :width: 1225
+
+.. note:: src/images/Timex_Sinclair_1000_FL.jpg JPEG 4903x3467 4903x3467+0+0 8-bit sRGB 6.3MB 0.010u 0:00.010
+
+
 
 ----
 
@@ -427,6 +413,8 @@ https://en.wikipedia.org/wiki/Intel_80386 1985 to 2007
 https://en.wikipedia.org/wiki/Intel_80486 1989 to 2007
 
 1991 
+
+.. note:: usable hardware for 386BSD and Linux didn't happen until the 386 became available 
 
 ----
 
@@ -447,6 +435,9 @@ Bell System breakup 1982
 
 MINIX 1987
 
+.. note:: MINIX was the exception here: it ran on the older, slower IBM-PC 
+          models using 8086 or 80286
+
 ---- 
 
 
@@ -461,6 +452,11 @@ https://a16z.com/2019/10/04/commercializing-open-source/
  In 1998, the Open Software Initiative coined the term “open source,” and around that time, the first real business model emerged with RedHat, MySQL, and many others doing paid support and services on top of free software.
 
 .. note:: https://a16z.com/2014/02/14/why-there-will-never-be-another-redhat-the-economics-of-open-source/
+
+.. note:: Levine seems to be conflating https://en.wikipedia.org/wiki/Open_Software_Foundation 
+          with https://en.wikipedia.org/wiki/Open_Source_Initiative
+          and that the coining of the term "open source" led to the 
+          initiative rather than vice versa 
 
 ---- 
 
@@ -490,46 +486,12 @@ https://en.wikipedia.org/wiki/Cygnus_Solutions
 
 https://en.wikipedia.org/wiki/World_Wide_Web
 
+.. note:: viable business long before OSI and open source came on the scene
+
+.. note:: Cygnus founded same year as TBL started the WWW
 
 ----
 
-
-
-
-.. note:: Excerpt from Constitution
-
-Patent and Copyright Clause 
-===========================
-U.S. Constitution 
------------------
-
-[The Congress shall have power] "To promote the **progress of science and useful arts**, by securing for **limited times** to **authors and inventors** the **exclusive right** to their respective **writings and discoveries**."
-
-*Article I Section 8. Clause 8*
-
-----
-
-
-Patent and Copyright Clause 
-===========================
-Summarized
-----------
-
- - *Who?* **authors & inventors**
- - *What?* **writings & discoveries**   
- - *Why?* **progress** 
- - *When?* **limited time**
- - *How?* **exclusive rights**
-
-.. note:: This is US federal jurisdiction. Used to be more localized, with
-          state and even local law in the US weighing in.  Now
-          internationalized and harmonized through for instance the Berne
-          Convention (US 1989), though still with differences from
-          country-to-country.
-
-
-
----- 
 
 *Rights and restrictions*
 
@@ -549,7 +511,7 @@ Robert Sikoryak_
 
 .. note: https://itunestandc.tumblr.com/
 
-
+.. note:: this was mostly a humorous aside during the day of the talk 
 
 ---- 
 
@@ -575,236 +537,4 @@ Robert Sikoryak_
 
 .. note: images/tumblr_ny6cfwI3WS1ugej69o1_1280.jpg JPEG 825x1275 825x1275+0+0 8-bit Gray 256c 394KB 0.000u 0:00.000
 .. note: images/tumblr_nyqn70RGPx1ugej69o1_1280.jpg[1] JPEG 825x1275 825x1275+0+0 8-bit Gray 256c 452KB 0.000u 0:00.000
-
-.. note:: copyright: for authors
-    applies to creative expression (very broadly: literature, art. cf djb vs us)
-    not for facts or automatic work (cf phone books, databases)
-    arises automatically (per Berne vide supra) on creation
-    can be registered: damages vs injunctive relief
-    life of author plus 70 (120 from creation, 95 from pub. Up from 14x2)
-    not for US govt (cf Crown Copyright and OSM)
-    limited by fair use (do ToS override fair use?)
- 
-.. note:: trade secret, in principle for ever, cumbersome, rev eng, Coke formula
-.. note:: patent, 20 years, first to file, prior art, novel, practical, must apply
-.. note:: trademark, logos and brand names, start by using, protects consumers from "confusion", must defend from becoming generic. Xerox. Kleenex. Hoover.
-.. note:: public domain, US federal govt (but not UK!) works not copyrightable, when copyright, patent expires, trademark becomes generic.
-
-.. note:: Slide highlighting just copyright.
-
-.. note:: but where do these come from?
-
-
----- 
-
-.. note:: Freedom to fork: Reprise
-
-What do we want?
-================
-
-** software freedom! **
-
-How do we get it?
------------------
-
-** licenses? **
-
-.. note:: By using the idea of a license expansively, to protect rights.  In
-          our current legal climate, we can tell a piece of software has
-          been liberated by its authors when it has a license that allows us
-          *effectively* to run, read, revise, and redistribute the source
-          code.
-
----- 
-
-
-
-Free software licenses
-======================
-
-.. note: compare and contrast with proprietary EULAs
-
-For software
-
- * Permissive, non-reciprocal
-
-   * MIT expat or X11
-
-   * BSD 2-clause or 3-clause
-
-   * Apache
-
-   * WTFPL
-
- * Copyleft
-
-   * varieties of the GPL
-
-   * Oracle (via Sun) CDDL
-
----- 
-
-.. image:: images/Screenshot_from_2017-10-17_15-28-35-fsf-mit-expat.png
-
-.. note:    :height: 283px
-.. note:    :width: 500px
-
-
-----
-
-
-
-
-.. note:: Excerpt from Constitution
-
-Patent and Copyright Clause 
-===========================
-U.S. Constitution 
------------------
-
-[The Congress shall have power] "To promote the **progress of science and useful arts**, by securing for **limited times** to **authors and inventors** the **exclusive right** to their respective **writings and discoveries**."
-
-*Article I Section 8. Clause 8*
-
-----
-
-
-Patent and Copyright Clause 
-===========================
-Summarized
-----------
-
- - *Who?* **authors & inventors**
- - *What?* **writings & discoveries**   
- - *Why?* **progress** 
- - *When?* **limited time**
- - *How?* **exclusive rights**
-
-.. note:: This is US federal jurisdiction. Used to be more localized, with
-          state and even local law in the US weighing in.  Now
-          internationalized and harmonized through for instance the Berne
-          Convention (US 1989), though still with differences from
-          country-to-country.
-
-
-
----- 
-
-*Rights and restrictions*
-
-End User License Agreement
---------------------------
-
-.. image:: images/terms_1.png
-    :height: 190px
-    :width: 300px
-
-
-Robert Sikoryak_ 
-
-.. _Sikoryak: https://en.wikipedia.org/wiki/Robert_Sikoryak
-
-.. note: https://www.drawnandquarterly.com/sites/default/files/styles/creation-gallery/public/images/creations/gallery/Terms%20and%20Conditions/terms_1.png?itok=6XB4lN40
-
-.. note: https://itunestandc.tumblr.com/
-
-
-
----- 
-
-.. note: RRL gives rise to things like this
-.. note: 108 pages, graphic novel unabridged version at the time of his writing it
-
-.. note: TMNT https://itunestandc.tumblr.com/image/134588049070 
-.. note: https://78.media.tumblr.com/96c42c8373049e01f5a83c0f606e207c/tumblr_nyqn70RGPx1ugej69o1_1280.jpg
-
-.. image:: images/tumblr_nyqn70RGPx1ugej69o1_1280.jpg
-    :height: 950px
-    :width: 450px
-
----- 
-
-.. note: MLP https://itunestandc.tumblr.com/image/133927463577 
-.. note: https://78.media.tumblr.com/4257efd86ce979895d533f42798fac8e/tumblr_ny6cfwI3WS1ugej69o1_1280.jpg
-
-.. image:: images/tumblr_ny6cfwI3WS1ugej69o1_1280.jpg
-    :height: 950px
-    :width: 450px
-
-
-.. note: images/tumblr_ny6cfwI3WS1ugej69o1_1280.jpg JPEG 825x1275 825x1275+0+0 8-bit Gray 256c 394KB 0.000u 0:00.000
-.. note: images/tumblr_nyqn70RGPx1ugej69o1_1280.jpg[1] JPEG 825x1275 825x1275+0+0 8-bit Gray 256c 452KB 0.000u 0:00.000
-
-.. note:: copyright: for authors
-    applies to creative expression (very broadly: literature, art. cf djb vs us)
-    not for facts or automatic work (cf phone books, databases)
-    arises automatically (per Berne vide supra) on creation
-    can be registered: damages vs injunctive relief
-    life of author plus 70 (120 from creation, 95 from pub. Up from 14x2)
-    not for US govt (cf Crown Copyright and OSM)
-    limited by fair use (do ToS override fair use?)
- 
-.. note:: trade secret, in principle for ever, cumbersome, rev eng, Coke formula
-.. note:: patent, 20 years, first to file, prior art, novel, practical, must apply
-.. note:: trademark, logos and brand names, start by using, protects consumers from "confusion", must defend from becoming generic. Xerox. Kleenex. Hoover.
-.. note:: public domain, US federal govt (but not UK!) works not copyrightable, when copyright, patent expires, trademark becomes generic.
-
-.. note:: Slide highlighting just copyright.
-
-.. note:: but where do these come from?
-
-
----- 
-
-.. note:: Freedom to fork: Reprise
-
-What do we want?
-================
-
-** software freedom! **
-
-How do we get it?
------------------
-
-** licenses? **
-
-.. note:: By using the idea of a license expansively, to protect rights.  In
-          our current legal climate, we can tell a piece of software has
-          been liberated by its authors when it has a license that allows us
-          *effectively* to run, read, revise, and redistribute the source
-          code.
-
----- 
-
-
-
-Free software licenses
-======================
-
-.. note: compare and contrast with proprietary EULAs
-
-For software
-
- * Permissive, non-reciprocal
-
-   * MIT expat or X11
-
-   * BSD 2-clause or 3-clause
-
-   * Apache
-
-   * WTFPL
-
- * Copyleft
-
-   * varieties of the GPL
-
-   * Oracle (via Sun) CDDL
-
----- 
-
-.. image:: images/Screenshot_from_2017-10-17_15-28-35-fsf-mit-expat.png
-
-.. note:    :height: 283px
-.. note:    :width: 500px
 
